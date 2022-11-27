@@ -5,9 +5,9 @@
   vars:
     nexus_url: http://3.19.32.4:8081/repository
     repository_type: mymaven-releases
-    group_id: com/mycompany/app
-    artifact_id: my-app
-    version: 1.6.2
+    group_id: org.springframework
+    artifact_id: jb-hello-world-maven
+    version: 0.2.0
     build_number: "{{build_number}}"
   tasks:
   - name: Download file from a file path
